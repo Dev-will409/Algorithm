@@ -24,6 +24,8 @@ int main() {
         if(i%3 == 0) dp[i] = min(dp[i/3] + 1, dp[i-1] + 1);
     }
 
+
+
     cout << dp[a];
 
     return 0;
